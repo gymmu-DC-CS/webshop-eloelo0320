@@ -31,3 +31,7 @@ h1 {
 .article > .description {
     padding: 1rem;
 }
+
+.price.green {
+    color: rgb(53, 218, 53);
+}
