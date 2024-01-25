@@ -1,6 +1,11 @@
 import { jsonLoader } from "./utils"
 
 function render(data, targetElement) {
+
+  if (!data.description){
+    data.description= "No description"
+  } 
+
   targetElement.innerHTML += `
 <div class="article">
     <h3>${data.title}</h3>
